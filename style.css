@@ -1,0 +1,539 @@
+header {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(img/dog\ back2.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    /* padding: 0;   */
+}
+
+.no {
+    color: grey;
+
+}
+
+.phone {
+    font-weight: bold;
+
+}
+
+.icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    margin-left: 0.6vw;
+    margin-top: 1vh;
+}
+
+.fa-twitter {
+    margin-left: 0.5vw;
+    margin-top: 5px;
+}
+
+.fa-instagram {
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+}
+
+.fa-globe {
+    margin-left: 0.4vw;
+    margin-top: 1vh;
+}
+
+.icon:hover {
+    background-color: rgb(206, 23, 84);
+    color: aliceblue;
+}
+
+.petvet {
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.petcare {
+    color: rgb(245, 57, 120);
+    font-size: 2.5vh;
+}
+
+.btn1 {
+    background-color: rgb(245, 57, 120);
+    color: white;
+    border: none;
+    height: 3rem;
+    margin-left: 2vw;
+    /* width: 10rem; */
+    padding: 10px;
+}
+
+.nav-link {
+    color: black !important;
+
+}
+
+.kind {
+    font-size: 10vh;
+    color: black;
+}
+
+.kind1 {
+    color: grey;
+    margin-top: 3vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    /* margin-top: 5vh; */
+}
+
+.btn2 {
+    background-color: rgb(245, 57, 120);
+    height: 3.6rem;
+    border: none;
+    border-radius: 8px;
+    width: 13rem;
+    color: white;
+}
+
+.btn3 {
+    background-color: #91C235;
+    height: 3.6rem;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 13rem;
+}
+
+li:hover {
+    color: rgb(245, 57, 120);
+}
+
+.far2 {
+    font-size: 3vh;
+    color: grey;
+}
+
+.card1 {
+    margin-top: 2vh;
+    height: 25%;
+    width: 32%;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px rgba(128, 128, 128, 0.355);
+}
+
+.img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: rgba(142, 137, 137, 0.317);
+}
+
+
+
+
+
+
+.main {
+    height: 90vh;
+    margin-top: 20vh;
+    width: 50vw;
+    margin-left: 8vw;
+    background-image: url(img/girl.webp);
+    background-size: cover;
+}
+
+.main1 {
+    margin-top: 30vh;
+    margin-left: 5vw;
+}
+
+.well {
+    color: rgb(245, 57, 120);
+    font-weight: bold;
+}
+
+.smal {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    color: grey;
+    margin-top: 3vh;
+}
+
+.width {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.qua {
+    font-size: 2.8vh;
+    margin-left: 1.5vw;
+    margin-top: 1.3vh;
+    font-weight: bold;
+}
+
+.qua1 {
+    font-size: 2.8vh;
+    margin-left: 1.5vw;
+    margin-top: 6vh;
+    font-weight: bold;
+}
+
+.qua2 {
+    font-size: 2.8vh;
+    margin-left: 1.5vw;
+    margin-top: 6vh;
+    font-weight: bold;
+}
+
+.qua3 {
+    font-size: 2.8vh;
+    margin-left: 1.5vw;
+    margin-top: 6vh;
+    font-weight: bold;
+}
+
+h4 {
+    color: rgb(245, 57, 120);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3vh;
+}
+
+section {
+    margin-top: 10vh;
+}
+
+section input {
+    height: 3rem;
+    /* width: 15rem; */
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+section textarea {
+    width: 12.7rem;
+    padding: 10px;
+    height: 3rem;
+}
+
+.time,
+.date {
+    width: 12.7rem;
+}
+
+.app {
+    height: 3rem;
+    color: white;
+    width: 12.7rem;
+    background-color: #91C235;
+}
+
+.groom {
+    color: rgb(245, 57, 120);
+    font-weight: bold;
+
+}
+
+.cat {
+    height: 34vh;
+    /* width: 17vw; */
+    background-color: #91C235;
+    margin-bottom: 10vh;
+}
+
+.cat1 {
+    height: 34vh;
+    /* width: 17vw; */
+    background-color: #91C235;
+    margin-bottom: 10vh;
+}
+
+.cat2 {
+    height: 34vh;
+    /* width: 17vw; */
+    background-color: #91C235;
+    margin-bottom: 10vh;
+}
+
+.cat3 {
+    height: 34vh;
+    /* width: 17vw; */
+    background-color: #91C235;
+    margin-bottom: 10vh;
+}
+
+.gol {
+    height: 12rem;
+    position: absolute;
+    top: 288vh;
+    border: 5px solid white;
+    left: 11vw;
+    width: 12rem;
+    border-radius: 50%;
+
+}
+
+.gol1 {
+    height: 12rem;
+    position: absolute;
+    top: 288vh;
+    border: 5px solid white;
+    left: 32vw;
+    width: 12rem;
+    border-radius: 50%;
+
+}
+
+.gol2 {
+    height: 12rem;
+    position: absolute;
+    top: 288vh;
+    border: 5px solid white;
+    left: 53vw;
+    width: 12rem;
+    border-radius: 50%;
+
+}
+
+.gol3 {
+    height: 12rem;
+    position: absolute;
+    top: 288vh;
+    border: 5px solid white;
+    left: 73vw;
+    width: 12rem;
+    border-radius: 50%;
+
+}
+
+.ceo {
+    color: rgb(245, 57, 120);
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.liyod {
+    margin-top: 20vh;
+    color: black;
+}
+
+.icons {
+
+/* line-height: 1rem; */
+    /* border-radius: 10px; */
+    /* height: 1.8rem; */
+    /* width: 1.8rem; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* background-color: rgb(245, 57, 120); */
+    /* border: 1px solid black; */
+}
+.icons{
+    background-color: pink;
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    /* line-height: 20px; */
+    text-align: center;
+}
+
+i{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+}
+.iconsp:hover {
+    background-color: #91C235;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.abs {
+    margin-top: 30vh;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:989px) {
+    nav {
+        background-color: white;
+
+    }
+
+}
+
+@media(max-width:850px) {
+    .cards2 {
+        flex-direction: column;
+        /* display: flex; */
+    }
+
+    .main,
+    .main1 {
+        margin-top: 70vh;
+    }
+
+    .card1 {
+        width: 80%;
+        margin-right: 8vw !important;
+        margin-bottom: 4vh;
+        margin-top: 3vh;
+        height: 120px !important;
+    }
+
+    main {
+        margin-top: 100vh !important;
+    }
+
+    .qua {
+        margin-top: 3vh;
+    }
+
+    .qua1 {
+        margin-top: 8vh;
+    }
+
+    .qua2 {
+        margin-top: 9vh;
+    }
+
+    .qua3 {
+        margin-top: 9vh;
+    }
+}
+
+@media (max-width:990px) {
+    nav {
+        background-color: black !important;
+
+    }
+
+    .liyod {
+        margin-top: 50vh;
+    }
+
+    .icons {
+        margin-left: 2vw;
+    }
+
+    .gol {
+        top: 400vh;
+        left: 22vw;
+    }
+
+    .iconsp {
+        margin-top: 20vh;
+        height: 80vh;
+    }
+
+    .gol1 {
+        top: 400vh;
+        left: 59vw;
+    }
+
+    .gol2 {
+        top: 505vh;
+        left: 59vw;
+    }
+
+    .gol3 {
+        top: 505vh;
+        left: 22vw;
+    }
+
+    .petvet {
+        color: white;
+    }
+
+    .home {
+        margin-left: 0 !important;
+    }
+
+    li {
+        margin-bottom: 5vh;
+    }
+
+    a {
+        color: white !important;
+
+    }
+
+    .no1 {
+        display: none !important;
+    }
+}
+
+@media(max-width:1326px) {
+    main {
+        margin-top: 50vh;
+    }
+
+    .qua {
+        margin-top: 3vh;
+
+    }
+
+    .qua1 {
+        margin-top: 8vh;
+    }
+
+    .qua2 {
+        margin-top: 9vh;
+    }
+
+    .qua3 {
+        margin-top: 9vh;
+    }
+}
+
+@media(max-width:767px) {
+    .main {
+        display: none;
+    }
+
+    section input {
+        width: 100%;
+    }
+
+    .date,
+    .time,
+    #textarea,
+    .app {
+        width: 100%;
+    }
+}
+
+@media(max-width:570px) {
+    .btn2 {
+        width: 100%;
+        margin-bottom: 1vh;
+    }
+
+    .btn3 {
+        width: 100%;
+        margin-bottom: 1vh;
+    }
+}
